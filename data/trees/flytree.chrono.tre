@@ -1,0 +1,301 @@
+#NEXUS
+[R-package APE, Fri Feb 26 16:42:11 2010]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 144;
+	TAXLABELS
+		Deuterophlebiidae
+		Tipulidae
+		Trichoceridae
+		Perissomatidae
+		Canthyloscelididae
+		Scatopsidae
+		Axymyiidae
+		Manotidae
+		Ditomyiidae
+		Lygistorrhinidae
+		Cecidomyiidae
+		Sciaridae
+		Mycetophilidae
+		Bolitophilidae
+		Keroplatidae
+		Diadocidiidae
+		Bibionidae
+		Pachyneuridae
+		Anisopodidae
+		Apystomyiidae
+		Pipunculidae
+		Chyromyidae
+		Opomyzidae
+		Sepsidae
+		Acartophthalmidae
+		Richardiidae
+		Lonchaeidae
+		Ulidiidae
+		Ctenostylidae
+		Tachiniscidae
+		Pyrgotidae
+		Tephritidae
+		Platystomatidae
+		Piophilidae
+		Milichiidae
+		Chloropidae
+		Somatiidae
+		Diopsidae
+		Marginidae
+		Nannodastiidae
+		Canacidae
+		Inbiomyiidae
+		Neminidae
+		Aulacigastridae
+		Neriidae
+		Pseudopomyzidae
+		Micropezidae
+		Tanypezidae
+		Strongylophthalmyiidae
+		Teratomyzidae
+		Heleomyzidae
+		Natalimyzidae
+		Heterocheilidae
+		Dryomyzidae
+		Phaeomyiidae
+		Conopidae
+		Sciomyzidae
+		Coelopidae
+		Helosciomyzidae
+		Huttoninidae
+		Helcomyzidae
+		Celyphidae
+		Lauxaniidae
+		Chamaemyiidae
+		Rhopalomeridae
+		Fergusoninidae
+		Asteiidae
+		Xenasteiidae
+		Australimyzidae
+		Clusiidae
+		Neurochaetidae
+		Pallopteridae
+		Psilidae
+		Syringogastridae
+		Megamerinidae
+		Odiniidae
+		Agromyzidae
+		Sphaeroceridae
+		Periscelididae
+		Carnidae
+		Ephydridae
+		Camillidae
+		Diastatidae
+		Curtonotidae
+		Drosophilidae
+		Braulidae
+		Chryptochaetidae
+		Hippoboscidae
+		Glossinidae
+		Fanniidae
+		Muscidae
+		Anthomyiidae
+		Scathophagidae
+		Rhinophoridae
+		Calliphoridae
+		Tachinidae
+		Oestridae
+		Sarcophagidae
+		Syrphidae
+		Lonchopteridae
+		Ironomyiidae
+		Phoridae
+		Platypezidae
+		Opetiidae
+		Atelestidae
+		Dolichopodidae
+		Hybotidae
+		Empididae
+		Asilidae
+		Mydidae
+		Apioceridae
+		Scenopinidae
+		Therevidae
+		Evocoidae
+		Apsilocephalidae
+		Mythicomyiidae
+		Bombyliidae
+		Pantophthalmidae
+		Xylomyidae
+		Stratiomyidae
+		Hilarimorphidae
+		Acroceridae
+		Nemestrinidae
+		Xylophagidae
+		Rhagionidae
+		Vermileonidae
+		Pelecorhynchidae
+		Oreoleptidae
+		Tabanidae
+		Athericidae
+		Bolbomyiidae
+		Dixidae
+		Corethrellidae
+		Chaoboridae
+		Culicidae
+		Ceratopogonidae
+		Chironomidae
+		Thaumaleidae
+		Simuliidae
+		Blephariceridae
+		Tanyderidae
+		Psychodidae
+		Ptychopteridae
+		Nymphomyiidae
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Deuterophlebiidae,
+		2	Tipulidae,
+		3	Trichoceridae,
+		4	Perissomatidae,
+		5	Canthyloscelididae,
+		6	Scatopsidae,
+		7	Axymyiidae,
+		8	Manotidae,
+		9	Ditomyiidae,
+		10	Lygistorrhinidae,
+		11	Cecidomyiidae,
+		12	Sciaridae,
+		13	Mycetophilidae,
+		14	Bolitophilidae,
+		15	Keroplatidae,
+		16	Diadocidiidae,
+		17	Bibionidae,
+		18	Pachyneuridae,
+		19	Anisopodidae,
+		20	Apystomyiidae,
+		21	Pipunculidae,
+		22	Chyromyidae,
+		23	Opomyzidae,
+		24	Sepsidae,
+		25	Acartophthalmidae,
+		26	Richardiidae,
+		27	Lonchaeidae,
+		28	Ulidiidae,
+		29	Ctenostylidae,
+		30	Tachiniscidae,
+		31	Pyrgotidae,
+		32	Tephritidae,
+		33	Platystomatidae,
+		34	Piophilidae,
+		35	Milichiidae,
+		36	Chloropidae,
+		37	Somatiidae,
+		38	Diopsidae,
+		39	Marginidae,
+		40	Nannodastiidae,
+		41	Canacidae,
+		42	Inbiomyiidae,
+		43	Neminidae,
+		44	Aulacigastridae,
+		45	Neriidae,
+		46	Pseudopomyzidae,
+		47	Micropezidae,
+		48	Tanypezidae,
+		49	Strongylophthalmyiidae,
+		50	Teratomyzidae,
+		51	Heleomyzidae,
+		52	Natalimyzidae,
+		53	Heterocheilidae,
+		54	Dryomyzidae,
+		55	Phaeomyiidae,
+		56	Conopidae,
+		57	Sciomyzidae,
+		58	Coelopidae,
+		59	Helosciomyzidae,
+		60	Huttoninidae,
+		61	Helcomyzidae,
+		62	Celyphidae,
+		63	Lauxaniidae,
+		64	Chamaemyiidae,
+		65	Rhopalomeridae,
+		66	Fergusoninidae,
+		67	Asteiidae,
+		68	Xenasteiidae,
+		69	Australimyzidae,
+		70	Clusiidae,
+		71	Neurochaetidae,
+		72	Pallopteridae,
+		73	Psilidae,
+		74	Syringogastridae,
+		75	Megamerinidae,
+		76	Odiniidae,
+		77	Agromyzidae,
+		78	Sphaeroceridae,
+		79	Periscelididae,
+		80	Carnidae,
+		81	Ephydridae,
+		82	Camillidae,
+		83	Diastatidae,
+		84	Curtonotidae,
+		85	Drosophilidae,
+		86	Braulidae,
+		87	Chryptochaetidae,
+		88	Hippoboscidae,
+		89	Glossinidae,
+		90	Fanniidae,
+		91	Muscidae,
+		92	Anthomyiidae,
+		93	Scathophagidae,
+		94	Rhinophoridae,
+		95	Calliphoridae,
+		96	Tachinidae,
+		97	Oestridae,
+		98	Sarcophagidae,
+		99	Syrphidae,
+		100	Lonchopteridae,
+		101	Ironomyiidae,
+		102	Phoridae,
+		103	Platypezidae,
+		104	Opetiidae,
+		105	Atelestidae,
+		106	Dolichopodidae,
+		107	Hybotidae,
+		108	Empididae,
+		109	Asilidae,
+		110	Mydidae,
+		111	Apioceridae,
+		112	Scenopinidae,
+		113	Therevidae,
+		114	Evocoidae,
+		115	Apsilocephalidae,
+		116	Mythicomyiidae,
+		117	Bombyliidae,
+		118	Pantophthalmidae,
+		119	Xylomyidae,
+		120	Stratiomyidae,
+		121	Hilarimorphidae,
+		122	Acroceridae,
+		123	Nemestrinidae,
+		124	Xylophagidae,
+		125	Rhagionidae,
+		126	Vermileonidae,
+		127	Pelecorhynchidae,
+		128	Oreoleptidae,
+		129	Tabanidae,
+		130	Athericidae,
+		131	Bolbomyiidae,
+		132	Dixidae,
+		133	Corethrellidae,
+		134	Chaoboridae,
+		135	Culicidae,
+		136	Ceratopogonidae,
+		137	Chironomidae,
+		138	Thaumaleidae,
+		139	Simuliidae,
+		140	Blephariceridae,
+		141	Tanyderidae,
+		142	Psychodidae,
+		143	Ptychopteridae,
+		144	Nymphomyiidae
+	;
+	TREE * UNTITLED = [&R] (((((((((((((((((((((((((57:30.006991,56:30.006991):2.030267,55:32.037258):5.414969,54:37.452227):2.92542,((58:33.505592,59:33.505592)Cyclorrhapha:3.836897,(60:33.611683,61:33.611683):3.730806):3.035158):2.868779,(52:36.813904,53:36.813904)Schizophora:6.432522):4.011463,((63:28.174192,62:28.174192):16.100639,64:44.274832):2.983058):10.14936,(51:54.722329,50:54.72233):2.68492):4.012304,((((66:43.657096,67:43.657096):5.859541,(68:34.563645,69:34.563645):14.952992):4.2546,65:53.771237):4.963055,(((71:45.521984,72:45.521984):5.966773,70:51.488758):3.035497,(73:49.844784,74:49.844784):4.679471)high_Teph:4.210037):2.685261):1.713059,(48:48.779912,49:48.779912):14.352699)Sciaroid_stem:4.156215,(((((41:50.967972,40:50.967971)Chlorop_stem:3.35607,39:54.324041):3.939977,38:58.264019):3.479242,((36:43.073477,35:43.073477):14.334573,37:57.40805):4.33521):2.078619,((((45:38.001568,46:38.001568):14.499057,47:52.500625):4.832995,44:57.33362):1.869782,(42:44.957012,43:44.957012)Cypsel_Neriid:14.24639):4.618476):3.466947):1.84806,((((((((30:24.899758,31:24.899758):5.031203,32:29.930961):3.377208,29:33.308169):5.011786,33:38.319955):9.839725,28:48.15968):7.582843,34:55.742523):5.159238,(26:53.50199,27:53.50199)Sciomyzoid:7.399771):2.671792,((23:54.224391,(24:46.561136,25:46.561136):7.663255):5.054441,22:59.278832):4.294721):5.563333):3.092983,75:72.229869):2.76924,(((((((((96:28.744622,95:28.744622):4.108146,94:32.852768):3.948964,(98:31.170895,97:31.170895):5.630837):7.199206,(92:34.846597,93:34.846597):9.15434):6.662462,91:50.6634):4.62378,90:55.28718):2.926472,(88:44.422604,89:44.422605):13.791047):10.757745,((((83:46.957992,84:46.957992):4.718744,82:51.676736):5.532881,((86:44.285501,87:44.285501):6.827035,85:51.112537):6.09708):6.650414,81:63.86003):5.111367):3.783579,(((77:64.968344,78:64.968345):2.99253,(79:61.196636,80:61.196636)high_Ephy:6.764239):1.891207,76:69.852082):2.902895):2.244132):14.979194,21:89.978303):12.313158,99:102.29146):49.929565,((((102:94.361368,101:94.361368):16.446165,103:110.807532):13.523102,104:124.330634):7.144888,100:131.475522):20.745504):14.995577,20:167.216603):16.42191,(((107:115.922499,108:115.922498):8.845599,106:124.768098):32.322301,105:157.090399):26.548115):16.493359,((((((113:117.426422,112:117.426422):16.312405,(114:122.902416,115:122.902416):10.836411):10.206336,((110:118.779037,111:118.779037):14.495795,109:133.274832):10.670332):25.532832,(117:141.768945,116:141.768945):27.709051):15.67178,(((120:138.214318,119:138.214319):16.787191,118:155.00151):22.191922,(121:161.597273,122:161.597273)Empidoidea:15.596159):7.956343):8.324119,((((((129:130.001669,130:130.001669):14.121743,128:144.123412):10.629937,127:154.753349):18.852346,131:173.605695):7.672674,(125:153.003893,126:153.003893):28.274477):3.082646,(124:164.465944,123:164.465944):19.895071):9.112879):6.657979):24.707035,(((((((((11:96.232947,10:96.232947):21.134398,12:117.367344)Strat_morph:18.034201,((14:105.928751,15:105.928751):18.706578,13:124.635329):10.766216):8.412535,16:143.81408):20.608865,(8:132.697137,9:132.697137):31.725808):15.579041,(17:147.393552,18:147.393552):32.608433):18.255455,7:198.257441):9.985329,(5:137.850797,6:137.850797):70.391972):6.159617,19:214.402387):10.436521):2.395831,4:227.234738)Tipuloids:5.133129,((((((133:143.570835,134:143.570835):38.165396,135:181.736231):32.118072,132:213.854302)Taban_stem:7.807847,((139:163.055769,138:163.055769):56.1912,(136:210.000612,137:210.000612):9.246357):2.41518):7.919507,((142:180.001388,141:180.001387):41.36124,140:221.362627):8.219029):1.515416,143:231.097072):1.270794):1.976057,(2:230.604249,3:230.60425):3.739674):2.1241,144:236.468023):3.531977,1:240)Diptera;
+END;

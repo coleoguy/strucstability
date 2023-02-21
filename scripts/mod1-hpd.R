@@ -1,0 +1,58 @@
+library(ggplot2)
+library(coda)
+
+######Mod 1
+dip <- read.csv("../results/posterior-samples/dipteramod1.csv")
+coleo <- read.csv("../results/posterior-samples/coleoptera-mod1.csv")
+blatt <- read.csv("../results/posterior-samples/blattodea-mod1.csv")
+hemi <- read.csv("../results/posterior-samples/hemiptera-mod1.csv")
+hymen <- read.csv("../results/posterior-samples/hymenopteramod1.csv")[,-1]
+lep <- read.csv("../results/posterior-samples/lepidoptera-mod1.csv")
+odo <- read.csv("../results/posterior-samples/odonatamod1.csv")[,-1]
+ortho <- read.csv("../results/posterior-samples/orthoptera-mod1.csv")
+
+blatt$ratio <- blatt$desc1/(blatt$desc1 + blatt$asc1)
+coleo$ratio <- coleo$desc1/(coleo$desc1 + coleo$asc1)
+dip$ratio <- dip$desc1/(dip$desc1 + dip$asc1)
+hemi$ratio <- hemi$desc1/(hemi$desc1 + hemi$asc1)
+hymen$ratio <- hymen$desc1/(hymen$desc1 + hymen$asc1)
+lep$ratio <- lep$desc1/(lep$desc1 + lep$asc1)
+odo$ratio <- odo$desc1/(odo$desc1 + odo$asc1)
+ortho$ratio <- ortho$desc1/(ortho$desc1 + ortho$asc1)
+
+HPDinterval(as.mcmc(dip$asc1))
+HPDinterval(as.mcmc(blatt$asc1))
+HPDinterval(as.mcmc(coleo$asc1))
+HPDinterval(as.mcmc(hemi$asc1))
+HPDinterval(as.mcmc(hymen$asc1))
+HPDinterval(as.mcmc(ortho$asc1))
+HPDinterval(as.mcmc(odo$asc1))
+HPDinterval(as.mcmc(lep$asc1))
+
+HPDinterval(as.mcmc(dip$desc1))
+HPDinterval(as.mcmc(blatt$desc1))
+HPDinterval(as.mcmc(coleo$desc1))
+HPDinterval(as.mcmc(hemi$desc1))
+HPDinterval(as.mcmc(hymen$desc1))
+HPDinterval(as.mcmc(ortho$desc1))
+HPDinterval(as.mcmc(odo$desc1))
+HPDinterval(as.mcmc(lep$desc1))
+
+
+
+mean(blatt$ratio)
+HPDinterval(as.mcmc(blatt$ratio))
+mean(coleo$ratio)
+HPDinterval(as.mcmc(coleo$ratio))
+mean(dip$ratio)
+HPDinterval(as.mcmc(dip$ratio))
+mean(hemi$ratio)
+HPDinterval(as.mcmc(hemi$ratio))
+mean(hymen$ratio)
+HPDinterval(as.mcmc(hymen$ratio))
+mean(lep$ratio)
+HPDinterval(as.mcmc(lep$ratio))
+mean(odo$ratio)
+HPDinterval(as.mcmc(odo$ratio))
+mean(ortho$ratio)
+HPDinterval(as.mcmc(ortho$ratio))

@@ -1,0 +1,87 @@
+# Script to get rates for paper results section
+library(coda)
+
+bla1 <- read.csv("../results/posterior-samples/blattodea-mod1.csv")
+bla2 <- read.csv("../results/posterior-samples/blattodea-mod2.csv")
+col1 <- read.csv("../results/posterior-samples/coleoptera-mod1.csv")
+col2 <- read.csv("../results/posterior-samples/coleoptera-mod2.csv")
+dip1 <- read.csv("../results/posterior-samples/dipteramod1.csv")
+dip2 <- read.csv("../results/posterior-samples/dipteramod2.csv")
+hem1 <- read.csv("../results/posterior-samples/hemiptera-mod1.csv")
+hem2 <- read.csv("../results/posterior-samples/hemiptera-mod2.csv")
+hym1 <- read.csv("../results/posterior-samples/hymenopteramod1.csv")[,-1]
+hym2 <- read.csv("../results/posterior-samples/hymenopteramod2.csv")
+lep1 <- read.csv("../results/posterior-samples/lepidoptera-mod1.csv")
+lep2 <- read.csv("../results/posterior-samples/lepidoptera-mod2.csv")
+odo1 <- read.csv("../results/posterior-samples/odonatamod1.csv")[,-1]
+odo2 <- read.csv("../results/posterior-samples/odonatamod2.csv")
+ort1 <- read.csv("../results/posterior-samples/orthoptera-mod1.csv")
+ort2 <- read.csv("../results/posterior-samples/orthoptera-mod2.csv")
+
+mean(bla2$desc1)
+mean(col2$desc1)
+mean(dip2$desc1)
+mean(hem2$desc1)
+mean(hym2$desc1)
+mean(lep2$desc1)
+mean(odo2$desc1)
+mean(ort2$desc1)
+
+mean(bla2$asc1)
+mean(col2$asc1)
+mean(dip2$asc1)
+mean(hem2$asc1)
+mean(hym2$asc1)
+mean(lep2$asc1)
+mean(odo2$asc1)
+mean(ort2$asc1)
+
+mean(bla2$desc1)
+mean(col2$desc1)
+mean(dip2$desc1)
+mean(hem2$desc1)
+mean(hym2$desc1)
+mean(lep2$desc1)
+mean(odo2$desc1)
+mean(ort2$desc1)
+
+mean(bla2$asc1)
+mean(col2$asc1)
+mean(dip2$asc1)
+mean(hem2$asc1)
+mean(hym2$asc1)
+mean(lep2$asc1)
+mean(odo2$asc1)
+mean(ort2$asc1)
+
+mean(bla2$pol1)
+mean(col2$pol1)
+mean(dip2$pol1)
+mean(hem2$pol1)
+mean(hym2$pol1)
+mean(lep2$pol1)
+mean(odo2$pol1)
+mean(ort2$pol1)
+
+
+
+mean(bla2$desc1/bla2$asc1)
+mean(col2$asc1/col2$desc1)
+mean(dip2$desc1/dip2$asc1)
+mean(hem2$asc1/hem2$desc1)
+mean(hym2$desc1/hym2$asc1)
+mean(lep2$asc1/lep2$desc1)
+mean(odo2$desc1/odo2$asc1)
+mean(ort2$asc1/ort2$desc1)
+
+
+mean(bla2$desc1/bla2$asc1)
+mean(col2$asc1/col2$desc1)
+mean(dip2$desc1/dip2$asc1)
+mean(hem2$asc1/hem2$desc1)
+mean(hym2$desc1/hym2$asc1)
+mean(lep2$asc1/lep2$desc1)
+mean(odo2$desc1/odo2$asc1)
+mean(ort2$asc1/ort2$desc1)
+
+
